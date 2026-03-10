@@ -1,0 +1,1 @@
+package com.capgemini.java_dev.framework.hibernate_jpa.many_to_one.entity;

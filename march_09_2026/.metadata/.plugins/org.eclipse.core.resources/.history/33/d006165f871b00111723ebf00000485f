@@ -1,0 +1,28 @@
+package com.capgemini.java_dev.framework.hibernate_jpa.entity;
+
+import java.io.Serializable;
+
+
+public class Student implements Serializable {
+
+    private Integer id;
+    private String name;
+    private String mailid;
+    private Long contactNumber;
+
+    public Student() {
+    }
+
+    public Student(Integer id, String name, String mailid, Long contactNumber) {
+        this.id = id;
+        this.name = name;
+        this.mailid = mailid;
+        this.contactNumber = contactNumber;
+    }
+
+    @Override
+    public String toString() {
+        return "Student [id=" + id + ", name=" + name + ", mailid=" + mailid + ", contactNumber=" + contactNumber + "]";
+    }
+
+}
